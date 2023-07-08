@@ -10,7 +10,9 @@ body {
     background-image: url(img/aurora.jpg);
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
 }
+
 
 a {
     text-decoration: none;
@@ -37,11 +39,6 @@ a {
     gap: 60px;
     font-size: 25px;
     font-family: 'Courier New', monospace;
-}
-
-.container {
-    height: 100vh;
-
 }
 
 .box01 {
@@ -94,12 +91,22 @@ a {
 .box04 {
     display: flex;
     align-items: center;
-    margin: 100px auto;
+    margin: 150px auto;
     padding: 30px;
     padding-right: 40px;
     gap: 30px;
     border: white dotted;
     border-radius: 30px;
+}
+
+.box05 {
+    font-size: 30px;
+    margin: 50px 250px 300px 250px;
+}
+
+.box06 {
+    font-size: 30px;
+    margin: 50px 250px 25px 250px;
 }
 
 .card {
