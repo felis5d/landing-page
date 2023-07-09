@@ -23,11 +23,15 @@
         <div class="box01-01">
             <h1>How exactly does one catch a Skyfox?</h1>
             <div class="box01-01-01">That is the age-old question. Skyfoxes are famously agile and hard-to-catch. You're going to need a couple of essentials and lots of luck.</div>
-            <input type="text" class="searchbar">
-            <div class="button-container">
-                <button>Dig deeper!</button>
-                <button>I'm feeling lucky</button>
-            </div>
+
+                <form action="https://www.google.com/search" method="GET">
+                    <input type="text" name="q" placeholder="" autocomplete="off" class="searchbar">
+                    <div class="button-container">
+                        <button type="submit" value="Google Search">Dig deeper!</button>
+                        <a href="https://www.youtube.com/watch?v=D2SoGHFM18I" class="btn">I'm feeling lucky</a>
+                    </div>
+                </form>
+
         </div>
         <img src=img/skyfox.png style="width: 700px; height: auto; transform: scaleX(-1);" alt="a jumping fox">
     </div>
