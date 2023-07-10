@@ -41,6 +41,62 @@ a {
     font-family: 'Courier New', monospace;
 }
 
+h1 {
+    margin: 0;
+}
+
+.searchbar {
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 15px white;
+  }
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+    justify-content: center;
+}
+
+button, .btn {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: white solid;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover, .btn:hover {
+    background-color: white;
+    border: white solid;
+    color: black;
+    mix-blend-mode: lighten;
+    cursor: grab;
+    animation: up 500ms;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-0.75em);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
 .box01 {
     display: flex;
     justify-content: center;
@@ -138,35 +194,6 @@ a {
     margin: 50px;
 }
 
-h1 {
-    margin: 0;
-}
-
-button, .btn {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: white solid;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: large;
-    font-weight: bold;
-}
-
-button:hover, .btn:hover {
-    background-color: white;
-    border: white solid;
-    color: black;
-    mix-blend-mode: lighten;
-    cursor: grab;
-}
-
-
-input[type=text] {
-    -webkit-transition: width 0.15s ease-in-out;
-    transition: width 0.15s ease-in-out;
- }
-
 .footer {
     display: flex;
     justify-content: center;
@@ -175,18 +202,4 @@ input[type=text] {
     background-color: #0D1B42;
     text-align: center;
     font-family: 'Courier New', monospace;
-}
-
-.button-container {
-    display: flex;
-    gap: 20px;
-    margin: 30px;
-    justify-content: center;
-}
-
-.searchbar {
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px;
-    border: none;
 }

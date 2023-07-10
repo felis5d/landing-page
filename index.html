@@ -6,6 +6,7 @@
     <title>Skyfox Inc.</title>
     <link rel="icon" href="img/skyfoxlogo.png" type="image/icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -65,10 +66,10 @@
 
     <div class="box04">
         <div>
-            <h1 style="margin: 20px">Sign up for our newsletter!</h2>
-            <div style="margin: 20px; text-align: center;">Don't miss out on any exiting news<br>from the F-0x star cluster.</div>
+            <h1 id="sign-up" style="margin: 20px" onclick=subscribe()>Sign up for our newsletter!</h2>
+            <div id="miss-out" style="margin: 20px; text-align: center;" onclick=subscribe()>Don't miss out on any exiting news<br>from the F-0x star cluster.</div>
         </div>
-        <button>Subscribe</button>
+        <button id="subscribe-button" onclick=subscribe()>Subscribe</button>
     </div>
 
     <div class="footer">Created by felis5d<br>2023</div>
