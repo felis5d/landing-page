@@ -151,7 +151,7 @@ button:hover, .btn:hover {
     padding: 30px;
     padding-right: 40px;
     gap: 30px;
-    border: white dotted;
+    box-shadow: 0 0 100px white;
     border-radius: 30px;
 }
 
