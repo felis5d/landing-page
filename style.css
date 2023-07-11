@@ -217,3 +217,9 @@ button:hover, .btn:hover {
     text-align: center;
     font-family: 'Courier New', monospace;
 }
+
+@media screen and (max-width: 480px) {
+    box05 {
+        max-width: 80vw;
+    }
+}
