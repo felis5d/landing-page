@@ -171,9 +171,9 @@ button:hover, .btn:hover {
 
 .box06 {
     display: block;
-    margin: auto;
+    margin: 2em auto 15em auto;
     font-size: 1.25vw;
-    width: 75vw;
+    width: 65vw;
     max-width: 1500px;
 }
 
